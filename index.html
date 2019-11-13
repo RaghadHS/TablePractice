@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,17 +13,25 @@
     <main>
 
         <table>
+            <th> </th>
+            <th scope="col">Column 1</th>
+            <th scope="col">Column 2</th>
+            <th scope="col">Column 3</th>
+
             <tr id="one">
-                <td>Row one Cell one</td>
+                <th scope="row">Row 1</th>
+                <td colspan="">Row one Cell one</td>
                 <td>Row one cell two</td>
                 <td>Row one cell three</td>
             </tr>
             <tr id="two" >
+                <th scope="row">Row 2</th>
                 <td>Row two Cell one</td>
                 <td>Row two cell two</td>
                 <td>Row two cell three</td>
             </tr>
             <tr id="three">
+                <th scope="row">Row 3</th>
                 <td>Row three Cell one</td>
                 <td>Row three cell two</td>
                 <td>Row three cell three</td>

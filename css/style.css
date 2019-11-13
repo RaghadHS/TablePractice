@@ -10,16 +10,20 @@ color: black;
 {
 color: darksalmon;
 text-align: center;
+margin-bottom: 20%;
+
 }
 
 #two
 {
 color: paleturquoise;
 text-align: center;
+margin-bottom: 20px;
 }
 
 #three
 {
 color: royalblue;
 text-align: center;
+margin-bottom: 20px;
 }
